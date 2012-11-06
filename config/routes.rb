@@ -1,4 +1,6 @@
 Newapp::Application.routes.draw do
+  get "main/top"
+
   get "main/index"
 
   # The priority is based upon order of creation:

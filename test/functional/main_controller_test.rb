@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class MainControllerTest < ActionController::TestCase
-  test "should get index" do
-    get :index
+  test "should get top" do
+    get :top
     assert_response :success
   end
 
